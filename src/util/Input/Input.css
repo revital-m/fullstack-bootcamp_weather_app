@@ -1,0 +1,34 @@
+.searchInput {
+  display: flex;
+  align-items: center;
+}
+
+.searchInput--label,
+.searchInput--info {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.searchInput--info {
+  border: 0.3rem solid #22072a;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* .searchInput--btn {
+  cursor: pointer;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: #5cffc9e7;
+  border: 0.2rem solid #318858;
+  border-radius: 1rem;
+  color: black;
+}
+
+.searchInput--btn:hover {
+  background: #5cffc983;
+} */

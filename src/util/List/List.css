@@ -1,0 +1,30 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: max-content;
+  box-shadow: 5px 5px 20px gray;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.list-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.list-item p,
+.list-item i {
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.list-item i {
+  cursor: pointer;
+}
+
+.checked {
+  text-decoration: line-through;
+}

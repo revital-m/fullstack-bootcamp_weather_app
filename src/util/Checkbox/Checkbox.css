@@ -1,0 +1,19 @@
+.Checkbox {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+
+.checkbox--label,
+.checkbox--info {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.checkbox--info {
+  border: 0.3rem solid #22072a;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
